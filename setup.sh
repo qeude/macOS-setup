@@ -21,6 +21,7 @@ brew install --cask rocket
 brew install --cask rectangle
 brew install --cask google-backup-and-sync
 brew install --cask google-chrome
+brew install --cask firefox
 brew install --cask typora
 brew install --cask whatsapp
 brew install --cask messenger
