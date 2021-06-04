@@ -74,6 +74,3 @@ zplug "plugins/osx", from:oh-my-zsh
 zplug "plugins/bgnotify", from:oh-my-zsh
 zplug "plugins/zsh-autosuggestions", from:oh-my-zsh
 zplug "plugins/zsh-syntax-highlighting", from:oh-my-zsh
-
-
-
