@@ -66,6 +66,7 @@ if ! zplug check --verbose; then
     fi
 fi'  > ~/.zshrc
 
+source ~/.zshrc
 zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/brew", from:oh-my-zsh
 zplug "plugins/docker", from:oh-my-zsh
