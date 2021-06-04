@@ -31,7 +31,6 @@ brew install --cask noisebuddy
 brew install --cask figma
 
 brew install --cask iterm2
-brew install --cask raycast
 brew install --cask visual-studio-code
 
 # 🔨 Xcode
