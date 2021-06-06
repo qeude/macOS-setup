@@ -57,16 +57,6 @@ export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 zplug "mafredri/zsh-async", from:github
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
-zplug load
-# Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi'  > ~/.zshrc
-
-source ~/.zshrc
 zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/brew", from:oh-my-zsh
 zplug "plugins/docker", from:oh-my-zsh
@@ -74,3 +64,10 @@ zplug "plugins/osx", from:oh-my-zsh
 zplug "plugins/bgnotify", from:oh-my-zsh
 zplug "plugins/zsh-autosuggestions", from:oh-my-zsh
 zplug "plugins/zsh-syntax-highlighting", from:oh-my-zsh
+zplug load
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    echo; zplug install
+fi'  > ~/.zshrc
+
+source ~/.zshrc
