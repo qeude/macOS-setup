@@ -8,12 +8,14 @@ brew install git
 brew install node
 brew install wget
 brew install bitwarden-cli
+brew install swiftgen
 
 # 💻 Softwares
 brew install raycast
 brew install docker
 brew install mas
 brew install gifski
+brew install --cask notion
 brew install --cask slack
 brew install --cask signal
 brew install --cask bitwarden
